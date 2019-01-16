@@ -11,13 +11,6 @@ public class ClickScript : MonoBehaviour
     public AudioSource gnome;
 
 
-    public void FixedUpdate()
-    {
-        scoreText.text = score.ToString();
-
-        print("Score" + score);
-    }
-
     public void GnomeClick()
     {
         score++;
