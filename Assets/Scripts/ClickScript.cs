@@ -20,4 +20,6 @@ public class ClickScript : MonoBehaviour
         scoreText.text = score.ToString();
     }
 
+
+
 }
